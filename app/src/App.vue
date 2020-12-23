@@ -47,7 +47,8 @@ export default {
 * 这么久了。还没和宝贝说过我的工作呢！
 * 我是个前端工程师。俗称程序员。网页相关。
 * 如这个页面。就是个什么也没有的网页。
-* 我的工作就是给这种空白的页面加点儿东西。
+* 我的工作就是给这种空白的页面加点儿东西。  
+* 看似简单，其实还涉及大量的架构设计。
 * 嗯。说起来手机和电脑还得区分一下。
 * 你现在用的是。。。${isPc ? '电脑' : '手机'}
 */
@@ -97,7 +98,7 @@ html{
 .resumeEditor{
   position: fixed; 
   ${ isPc ? 'right: 0;' : 'left:0;right:0;margin:auto;'}
-  ${ isPc ? 'top:300;' : 'bottom:400;'}
+  ${ isPc ? 'top: 0 ;' : 'bottom: 2%;'}
   padding: .5em;  
   ${ isPc ? 'margin: .5em;' : ''}
   ${ isPc ? 'width: 48%;height: 96%;' : 'width: 96%;height: 50%;' }
